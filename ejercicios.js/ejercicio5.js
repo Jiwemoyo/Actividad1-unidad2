@@ -1,6 +1,7 @@
+alert("MAyor de edad menor de edad")
 var menoredad=0
 var mayoredad=0
-for (let index = 1; index < 6; index++) {
+for (let index = 1; index < 21; index++) {
 
     edades=prompt(`Ingrese la edad de la persona ${index}`)
     if (edades <=17) {

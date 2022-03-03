@@ -1,3 +1,4 @@
+alert("almacen de ofertas")
 let precioUnitario =prompt("Ingrese el precio unitario")
 let articulo =prompt("Cuantos articulos planea comprar")
 precioUnitario=parseFloat(precioUnitario)
