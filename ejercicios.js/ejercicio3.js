@@ -1,5 +1,8 @@
 alert (" Promedio de Notas")
-var N = parseInt(prompt("CUANTAS NOTAS TIENE----"));
+
+//Primer Forma
+
+/*var N = parseInt(prompt("CUANTAS NOTAS TIENE----"));
 var promedio=0;
 var Acumula=1;
 var cuenta;
@@ -19,4 +22,26 @@ if (N!==0) {
 }
 
 promedio=suma_notas/N;
-document.write("PROMEDIO "+ promedio);
+document.write("PROMEDIO "+ promedio);*/
+
+//Segunda Forma
+
+var N = 1;
+var suma=0;
+var cantidad=0;
+var notas=0;
+var promedio=0;
+
+while (N!=0) {
+	notas=parseFloat(prompt(`Ingrese una nota`))
+	
+	suma = suma +notas
+	cantidad = cantidad+1
+	N = notas
+}
+
+promedio=(suma)/(cantidad-1)
+
+document.write(`usted ingreso un total de ${cantidad-1} notas <br>
+que sumadas dan ${suma} <br>
+y el promedio de las mismas es ${promedio}`)
