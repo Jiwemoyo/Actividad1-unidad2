@@ -8,4 +8,5 @@ while (N!==0) {
     
 }
 promedio=Acumula/cuenta
-document.write("promedio"+promedio);
+document.write("promedio"+promedio); 
+
