@@ -1,0 +1,29 @@
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    color: #FF7F3F;
+}
+
+.contenedor{
+    display: grid;
+    background-color: #EA5C2B;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contenedor a{
+    text-decoration: none;
+    background-color: #F6D860;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: #EA5C2B
+}
+.contenedor a:hover{
+    background-color: #FF7F3F;
+    color: #F6D860;
+}
