@@ -1,3 +1,5 @@
+alert("Números  por teclado")
+
 suma=0
 var num= parseInt(prompt('PONGA NUMERO---------'))
 while (num !=0) {

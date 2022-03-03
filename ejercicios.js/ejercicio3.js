@@ -1,3 +1,4 @@
+alert (" Promedio de Notas")
 var N = parseInt(prompt("CUANTAS NOTAS TIENE----"));
 var promedio=0;
 var Acumula=1;

@@ -1,3 +1,4 @@
+alert("tienda de calzado")
 var v = parseFloat(prompt("VALOR DEL CALZADO -----------"));
 var category = prompt("CATEGORIA--------");
 var bo;
