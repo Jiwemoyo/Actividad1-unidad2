@@ -33,7 +33,7 @@ var notas=0;
 var promedio=0;
 
 while (N!=0) {
-	notas=parseFloat(prompt(`Ingrese una nota`))
+	notas=parseFloat(prompt(`Ingrese una nota u oprima cero para dejar de ingresar notas`))
 	
 	suma = suma +notas
 	cantidad = cantidad+1
