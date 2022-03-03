@@ -4,5 +4,5 @@ while (num !=0) {
     if (num>0) {
         num= parseInt(prompt('PONGA NUMERO---------'))
     }else
-    document.write("PUSO 0");
+    print("PUSO 0");
 }
